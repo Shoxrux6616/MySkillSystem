@@ -18,4 +18,5 @@ public class UserGetDto
     public UserRole Role { get; set; }
 
     public ICollection<SkillGetDto> Skills { get; set; }
+
 }
